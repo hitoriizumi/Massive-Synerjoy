@@ -1,0 +1,47 @@
+.body {
+    font-family: Londrina Solid;
+}
+
+.banner {
+    height: 30vh;
+    background: url('../assets/image/gif.gif');
+    width: 90%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
+    background-color: #143A52;
+}
+
+.banner2-margin {
+    margin-top: 150px;
+  }
+
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.no-decoration:hover {
+    color: #C39BD3;
+}
+
+.star-icon {
+    font-size: 3rem;
+    color: #ccc;
+    transition: color 0.2s;
+  }
+  
+  .star-icon:hover,
+  .star-icon:focus,
+  .star-icon:active {
+    color: #ffcc00;
+  }
+  
+  .star-icon.checked {
+    color: #ffcc00;
+  }

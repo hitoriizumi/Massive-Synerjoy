@@ -1,0 +1,235 @@
+.warna1 {
+    background-color: #633971;
+}
+
+.warna2 {
+    background-color: black;
+}
+
+.warna3{
+    background-color: white;
+}
+
+.warna4 {
+    background-color: #5c5c5c;
+}
+
+.warna5 {
+    background-color: #acabab;
+}
+
+.warna6 {
+    color: #5c5c5c;
+}
+
+.warna7 {
+    color: white;
+}
+
+.body {
+    font-family: Londrina Solid;
+}
+
+.font-about {
+    color: #143A52;
+}
+
+.banner {
+    height: 30vh;
+    background: url('../assets/image/gif.gif');
+    width: 90%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
+    background-color: #143A52;
+}
+
+.banner2-margin {
+    margin-top: 150px;
+  }
+
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.no-decoration:hover {
+    color: #C39BD3;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-black:hover {
+    background-color: #222;
+  }
+
+  .melayang1 {
+    top: -10px; /* shift upwards by 20px */
+    left: 40%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .melayang2 {
+    top: 20px; /* shift upwards by 20px */
+    left: 65%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .melayang3 {
+    top: 60%; /* shift upwards by 20px */
+    right: 75%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .font-fact {
+    color: white;
+    font-size: 20px;  
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background: url('../assets/image/flip1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+
+  .flip-card-front2 {
+    background: url('../assets/image/flip2.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back2 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+
+  .flip-card-front3 {
+    background: url('../assets/image/flip3.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back3 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front4, .flip-card-back4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front4 {
+    background: url('../assets/image/flip1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back4 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .final {
+    width: 100%;
+    transition: transform 0.8s;
+  }
+
+  .final:hover {
+    transform: scale(1.1);
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }

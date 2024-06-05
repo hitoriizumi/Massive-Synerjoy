@@ -1,0 +1,76 @@
+.body {
+   font-family: Londrina Solid; 
+}
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  .banner {
+    height: 30vh;
+    background: url('../assets/image/gif.gif');
+    width: 90%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .options {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 70%;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-create {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-create:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-view {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-view:hover {
+    background-color: #1a73e8;
+  }

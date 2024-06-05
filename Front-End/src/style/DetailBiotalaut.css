@@ -1,0 +1,57 @@
+.body {
+    font-family: Londrina Solid;
+}
+
+.section1 {
+    background-color: white;
+    height: 50vh;
+}
+
+.judul {
+    column-width: 500px;
+}
+
+.text-judul {
+    font-size: 20px;
+}
+
+.section2 {
+    background-color: #143A52;
+    height: 50vh;
+}
+
+.center-content {
+    display: block;
+    margin: 0 auto;
+  }
+
+.judul-about {
+    color: white;
+    font-size: 30px;
+}
+
+  .banner2 {
+    background-color: #143A52;
+  }
+
+  .font-about {
+    color: white;
+  }
+  
+  .isi-container {
+    display: flex;
+    }
+
+    .isi {
+        width: 100%;
+    }
+
+    .isi-text {
+        width: 100%;
+    }
+
+.font-isi {
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px
+}

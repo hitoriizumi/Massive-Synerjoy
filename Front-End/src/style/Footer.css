@@ -1,0 +1,56 @@
+.footer {
+    background-color: #143A52;
+    padding: 20px;
+    font-family: Londrina Solid;
+  }
+  
+  .logo-col {
+    text-align: left;
+  }
+  
+  .hr-col {
+    text-align: center;
+  }
+  
+  .text-col {
+    text-align: right;
+    color: white;
+  }
+  
+  .logo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .logo-row img {
+    margin: 0 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .logo-col {
+      text-align: center;
+    }
+    .hr-col {
+      display: none;
+    }
+    .text-col {
+      text-align: center;
+    }
+    .logo-row {
+      flex-direction: column;
+    }
+    .logo-row img {
+      margin: 10px auto;
+      width: 15px;
+      height: 15px;
+    }
+    .footer {
+      padding: 10px;
+    }
+    .logo-col img {
+      width: 25px;
+      height: 25px;
+    }
+  }

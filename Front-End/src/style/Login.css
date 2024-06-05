@@ -1,0 +1,35 @@
+.body-login {
+    min-height: 70vh;
+    background-image: url('../assets/image/login-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Londrina Solid;
+  }
+  
+  @media (min-width: 576px) {
+    .body-login {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .body-login {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .body-login {
+      padding-right: 45px;
+      padding-left: 45px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .body-login {
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+  }
